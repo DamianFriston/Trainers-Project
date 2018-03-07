@@ -16,6 +16,11 @@
     -->
      <!-- controlled delivery network for font awesome -->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel= "stylesheet">
+    
+<!--  DOWNLOAD VERSION USED INSTEAD. THIS IS CDN VERSION <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css" rel="stylesheet" type="text/css"> -->
+    
+    <link href="External/CSS/Normalize.css" rel="stylesheet" type="text/css">
+    
     <meta charset="utf-8"> <!--charset can now be used as you can implement the use of symbols (!$&) -->
     
     <!-- My CSS: -->
@@ -30,40 +35,54 @@
 
     <!-- ================ HOME SECTION ================ -->
     
-        <section id="Home">
+        <section id="home">
     
             <header> 
                 
                 <div class = "logo">
-                 <a href = "#home"></a>   
+                    
+                 <a href = "#home"> <img src ="Resources/img/logo.png" alt="CompanyLogo" /> </a>   
                 </div>
                 
+                    <div class="cartIcon">
+                        <i class="fa fa-shopping-cart"></i>
+                    </div>
+                        
+                    
                 <!-- NAVIGATION SECTION START -->
+                
+                <div class="navC">
+                <span class="navBtn"> &#9776; </span>    
                 <nav> 
                 
-                    <ul>
+                    <ul id="mainMenu" class="menu-items">
                         <li><a href="#"> home </a></li>
                         <li><a href="#"> products </a></li>
                         <li><a href="#"> sales </a></li>
                         <li><a href="#"> about </a></li>
                         <li><a href="#"> contact us </a></li>
-                        <li><a href ="#"> <i class="fa fa-shopping-cart"></i> </a></li> <!-- icon for shopping cart button -->
+                        <li><a href ="#"> View Cart </a></li> <!-- icon for shopping cart button -->
                     </ul>
                     
-                </nav> 
+                </nav>
+                </div>
+                
                 <!-- NAVIGATION SECTION END -->
                 
             </header> 
             
             <h1>Exclusive <br /> Trainers</h1>
-        
+                    
+            <div class="actionB">
+            <a href="#"> <button class="newCollectionB">New Arrivals</button> </a> 
+            </div>    
+                
+            
             <h3>Limited Edition</h3>
-
+                
             <a href="#"> <i class="fa fa-hand-o-right"></i> </a> 
             
                 
-            <a href="#"> <button>New Arrivals</button> </a> 
-    
         </section> <!-- HOME SECTION ENDS -->
     
     <!-- PRODUCT SECTION STARTS -->

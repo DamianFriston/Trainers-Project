@@ -1,0 +1,132 @@
+/* ===============================================
+
+THIS SHOPPING WEBSITE IS FOR TRAINING ONLY 
+
+==================================================*/
+
+
+/* ===============================================
+
+Main Colours:
+
+Primary colour - rgb(183, 154, 246); //purple for navigation links
+Secondary colour - rgb(53, 38, 80); //darker purple
+Third colour - rgb(200, 177, 250); //lighter purple
+
+==================================================*/
+
+
+/* =====================
+
+   Home styles:
+
+=======================*/
+
+
+img, video {
+    
+    width: 100%;
+}
+
+
+body {
+    
+    font-family: serif;
+    font-size: 16px;
+    color: #747474;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+   
+}
+
+#home {
+    
+    position: relative;    
+    /*height: auto;*/
+    width: 100%;
+    background-image: url(../img/trainerHomePage.jpg);
+    height: 100vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.logo {
+    
+    left: 3px; 
+    top: 10px;
+    width: 50px;
+    position: absolute;
+}
+
+
+.navC {
+    
+    color: #ffffff;
+    width: 100%;
+    text-align: center;
+    background-color: #b79af6;
+
+}
+
+.menu-items {
+    
+    display: inline;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li a {
+    
+    color: #ffffff;
+    text-align: right;
+    display: block;
+    padding: 15px 10px 15px 0px;
+       
+}
+
+.cartIcon {
+    
+    position: absolute;
+    top: 15px;
+    left: 50vw;
+    width: 30px;
+    z-index: 10;
+}
+
+.fa-shopping-cart {
+    
+    color: #352650;
+    font-size: 2em;
+}
+
+/* this is the code for the 3 line bar menu */
+.navBtn {
+    
+    font-size: 2.5em;
+    display: block;
+    cursor: pointer;
+    padding: 7px 3%; 
+    text-align: center;
+    margin: 0 4vw 0 75vw;
+    width: 20%;
+}
+
+.actionB {
+    
+    position: absolute;
+    top: 60vh;
+    left: 5vw;
+}
+
+.newCollectionB {
+    
+    color: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgba(42, 56, 69, 0.51)
+}
+
+
+
